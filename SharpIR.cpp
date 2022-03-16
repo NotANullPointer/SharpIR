@@ -81,10 +81,10 @@ void SharpIR::sort(int a[], int size) {
 }
 
 // Read distance and compute it
-int SharpIR::distance() {
+float SharpIR::distance() {
 
     int ir_val[NB_SAMPLE] = {};
-    int distanceCM;
+    float distanceCM;
     float current;
     int median;
 
